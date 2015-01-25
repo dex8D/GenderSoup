@@ -19,13 +19,10 @@ public class S_Level1Test : MonoBehaviour
 	public Button btnAnswer5 = null;
 	#endregion // Class Variables
 	
-	
 	#region "Events"
 	void Awake ()
 	{
-		Debug.Log ("HJLELELKJELKJELKJELKJELKJELKj");
-		// Set up text in buttons and in textbox.
-		ChangeDescriptionText ("You wander into public on your first day of whatever and what not.  Unbeknownst to you, a major change" + 
+		ChangeDescriptionText ("ALL THE WRONG THINGS!!  You wander into public on your first day of whatever and what not.  Unbeknownst to you, a major change" + 
 			"had occurred to your body.");
 		ChangeAnswer1Text ("Continue");
 		ChangeAnswer2Text ("");
@@ -34,25 +31,6 @@ public class S_Level1Test : MonoBehaviour
 		ChangeAnswer5Text ("");
 	}
 	
-	
-	void Start ()
-	{
-		
-	}
-	
-	void OnLevelLoaded ()
-	{
-		
-	}
-	
-	void Update ()
-	{
-		
-	}
-	
-	// Need a way to pull or push button load direction....
-	//  I could go back to the old buttons....  I could! OH MY GOD I COULD!
-	//  They have one function, to call a method to load another scene.  No need to pull or push button load direction.
 	#region "Button Events"
 	public void btnOneEvent ()
 	{
@@ -60,29 +38,29 @@ public class S_Level1Test : MonoBehaviour
 		Application.LoadLevel ("Level2Test");
 	}
 	
-//	public void btnTwoEvent ()
-//	{
-//		Debug.Log ("Load Level2Test from Level1Test");
-//		Application.LoadLevel ("Level2Test");
-//	}
-//	
-//	public void btnThreeEvent ()
-//	{
-//		Debug.Log ("Load Level3Test from Level1Test");
-//		Application.LoadLevel ("Level3Test");
-//	}
-//	
-//	public void btnFourEvent ()
-//	{
-//		Debug.Log ("Load Level4Test from Level1Test");
-//		Application.LoadLevel ("Level4Test");
-//	}
-//	
-//	public void btnFiveEvent ()
-//	{
-//		Debug.Log ("Load Level5Test from Level1Test");
-//		Application.LoadLevel ("Level5Test");
-//	}
+	public void btnTwoEvent ()
+	{
+		Debug.Log ("Load Level2Test from Level1Test");
+		Application.LoadLevel ("Level2Test");
+	}
+	
+	public void btnThreeEvent ()
+	{
+		Debug.Log ("Load Level3Test from Level1Test");
+		Application.LoadLevel ("Level3Test");
+	}
+	
+	public void btnFourEvent ()
+	{
+		Debug.Log ("Load Level4Test from Level1Test");
+		Application.LoadLevel ("Level4Test");
+	}
+	
+	public void btnFiveEvent ()
+	{
+		Debug.Log ("Load Level5Test from Level1Test");
+		Application.LoadLevel ("Level5Test");
+	}
 	#endregion // Button Events
 	#endregion // Events
 	
