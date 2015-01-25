@@ -17,6 +17,7 @@ public class S_Day1_11 : MonoBehaviour
 	public Button btnAnswer3 = null;
 	public Button btnAnswer4 = null;
 	public Button btnAnswer5 = null;
+    public Button butts = null;
 	#endregion // Class Variables
 	
 	#region "Events"
