@@ -1,19 +1,25 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Game\G_GameController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Scenes\S_Level2Test.cs">
     <Files>
-      <File FileName="Assets\Scripts\CharacterCreation\CC_Arrow.cs" Line="137" Column="11" />
+      <File FileName="Assets\Scripts\CharacterCreation\CC_Arrow.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MainMenu\MM_StartGame.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu\MM_Buttons.cs" Line="63" Column="5" />
-      <File FileName="Assets\Scripts\GenderSelect\GS_Buttons.cs" Line="40" Column="48" />
-      <File FileName="Assets\Scripts\CharacterCreation\CC_Buttons.cs" Line="31" Column="28" />
-      <File FileName="Assets\Scripts\CharacterCreation\CC_Character.cs" Line="36" Column="2" />
-      <File FileName="Assets\Scripts\Game\G_GameController.cs" Line="98" Column="1" />
-      <File FileName="Assets\Scripts\Game\G_AnswerButton.cs" Line="7" Column="8" />
+      <File FileName="Assets\Scripts\MainMenu\MM_Buttons.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GenderSelect\GS_Buttons.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CharacterCreation\CC_Buttons.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CharacterCreation\CC_Character.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Game\G_GameController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Game\G_AnswerButton.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Scenes\S_SceneTransition.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Scenes\S_Level1Test.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Scenes\S_Level2Test.cs" Line="28" Column="52" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\TabmocT4\Dropbox\Mismatched; 404\Game Jam 2015\GenderSoup\GenderSoup\Assets\Scripts\Scenes\S_Level1Test.cs" line="26" />
+      <Breakpoint file="C:\Users\TabmocT4\Dropbox\Mismatched; 404\Game Jam 2015\GenderSoup\GenderSoup\Assets\Scripts\Scenes\S_Level2Test.cs" line="26" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

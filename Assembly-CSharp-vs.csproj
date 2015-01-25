@@ -57,6 +57,9 @@
      <Compile Include="Assets\Scripts\MainMenu\MM_Buttons.cs" />
      <Compile Include="Assets\Scripts\MainMenu\MM_Exit.cs" />
      <Compile Include="Assets\Scripts\MainMenu\MM_StartGame.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Level1Test.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_Level2Test.cs" />
+     <Compile Include="Assets\Scripts\Scenes\S_SceneTransition.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
