@@ -23,6 +23,7 @@ public class S_Level2Test : MonoBehaviour
 	#region "Events"
 	void Awake ()
 	{
+		btnAnswer1.enabled = true;
 		Debug.Log ("NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNigga");
 		// Set up text in buttons and in textbox.
 		ChangeDescriptionText ("FUCKFUCKFUCKFUKCUFKCUFYou wander into public on your first day of whatever and what not.  Unbeknownst to you, a major change" + 
@@ -53,6 +54,10 @@ public class S_Level2Test : MonoBehaviour
 	//  I could go back to the old buttons....  I could! OH MY GOD I COULD!
 	//  They have one function, to call a method to load another scene.  No need to pull or push button load direction.
 	#region "Button Events"
+	public void FUCKASS (int ASSFUCK)
+	{
+		Debug.Log ("HONKY ASS HORSE COCK!");
+	}
 	public void btnOneEvent ()
 	{
 		Debug.Log ("Load Level1Test from Level1Test");
